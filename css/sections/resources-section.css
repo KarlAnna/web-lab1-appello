@@ -1,0 +1,36 @@
+.resources-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.resources-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.resources-list > li {
+  padding: 10px;
+  max-width: 340px;
+  max-height: 657px;
+  box-shadow: var(--box-shadow);
+}
+
+.resources-list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 30px;
+}
+
+.resources-list-info > h4 {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.resources-list-info > p {
+  font-size: 12px;
+  color: var(--secondary-text-color);
+}

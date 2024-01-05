@@ -1,0 +1,77 @@
+.callback-section {
+  position: relative;
+  background: url(/images/office.png);
+  background-size: cover;
+  height: 1010px;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.callback-form {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -35px;
+  background-color: var(--primary-bg-color);
+  box-shadow: var(--box-shadow);
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 125px;
+}
+
+.callback-form_title {
+  max-width: 323px;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.callback-form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.callback-form_input {
+  position: relative;
+  padding: 18px 20px;
+  width: 500px;
+  border: 1px solid var(--divider-color);
+  border-radius: 4px;
+}
+
+.callback-form_textarea {
+  height: 120px;
+}
+
+.callback-form_input::placeholder {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+}
+
+.callback-form_btn {
+  margin-top: 10px;
+  width: 174px;
+  height: 60px;
+}
+
+/** Adaptation **/
+
+@media screen and (max-width: 768px) {
+  .callback-form {
+    padding: 30px 15px;
+    gap: 75px;
+  }
+
+  .callback-form_input {
+    width: calc(100vw - 250px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .callback-form_input {
+    width: auto;
+  }
+}

@@ -1,0 +1,19 @@
+@import 'modern-normalize.css';
+@import 'variables.css';
+@import 'reset.css';
+@import 'layout.css';
+@import 'header.css';
+@import 'footer.css';
+
+/** Sections **/
+@import './sections/main-section.css';
+@import './sections/about-us-section.css';
+@import './sections/project-stages-section.css';
+@import './sections/projects-section.css';
+@import './sections/partners-section.css';
+@import './sections/regional-partners-section.css';
+@import './sections/callback-section.css';
+@import './sections/badges-section.css';
+@import './sections/resources-section.css';
+@import './sections/faq-section.css';
+@import './sections/career-section.css';

@@ -1,0 +1,68 @@
+.project-stages-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.project-stages-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.project-stages-section-tabs {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-stages-section-tabs button {
+  border: none;
+  transition: var(--transition);
+}
+
+.project-stages-section-tabs button:hover,
+.project-stages-section-tabs button:focus {
+  color: var(--accent-color);
+}
+
+.project-stages-section-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project-stages-section-list > li {
+  box-sizing: border-box;
+  max-width: 560px;
+  padding: 40px;
+  border: 1px solid var(--divider-color);
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.project-stages-section-list_title {
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.project-stages-section-list_text {
+  color: var(--secondary-text-color);
+}
+
+.project-stages-section_btn {
+  width: 174px;
+  height: 60px;
+}
+
+/** Adaptation **/
+
+@media screen and (max-width: 480px) {
+  .project-stages-section-tabs {
+    gap: 25px;
+  }
+}

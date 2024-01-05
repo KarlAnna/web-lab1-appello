@@ -1,0 +1,39 @@
+.regional-partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px 20px;
+  justify-content: center;
+}
+
+.regional-partners-list > li {
+  width: 365px;
+  height: 237px;
+  box-shadow: var(--box-shadow);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 18px;
+  width: 325px;
+  height: 177px;
+  padding: 30px 20px;
+}
+
+.regional-partners-list div {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.regional-partners-list img {
+  grid-area: 2 / 2 / 3 / 3;
+  justify-self: end;
+}
+
+.regional-partners-list span {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+}
+
+.regional-partners-list p {
+  font-size: 20px;
+  line-height: 28px;
+}
